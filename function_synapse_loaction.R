@@ -3,9 +3,6 @@
 
 #Ensure "spike initiation zone" node is tagged with AJES_dendrites_distal before using function and soma is rooted in CATMAID.
 
-skid = 2109445
-input.skid = 2333007
-
 
 synapse_distance <- function(skid, input.skid){
   n = read.neuron.catmaid(skid)
